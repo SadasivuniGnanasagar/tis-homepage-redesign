@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="CBSE-affiliated co-ed boarding and day school in Dehradun, Uttarakhand for boys and girls from Class 4 to 12." />
+    <meta name="theme-color" content="#f6f8fc" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#091230" media="(prefers-color-scheme: dark)" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Boarding School in Dehradun | Tulas International School" />
+    <meta property="og:description" content="CBSE-affiliated co-ed boarding and day school in Dehradun, Uttarakhand for boys and girls from Class 4 to 12." />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>Boarding School in Dehradun | Tulas International School</title>
+    <script>
+      // Apply the saved theme before first paint so there is no light/dark flash.
+      try {
+        const saved = localStorage.getItem('tis-theme')
+        const dark = saved ? saved === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches
+        document.documentElement.classList.toggle('dark', dark)
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
