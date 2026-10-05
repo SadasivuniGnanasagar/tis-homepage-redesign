@@ -4,8 +4,8 @@ An animated, mobile-first redesign of the Tulas International School homepage. T
 
 ## Live demo
 
-- Live URL: _add your Vercel / Netlify link here_
-- Repository: _add your GitHub link here_
+- Live URL: https://tis-homepage-redesign-flame.vercel.app/
+- Repository: https://github.com/SadasivuniGnanasagar/tis-homepage-redesign
 
 ## Tech stack
 
